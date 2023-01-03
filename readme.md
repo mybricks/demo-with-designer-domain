@@ -2,7 +2,7 @@
 
 
 ### 1. clone 工程
- > git clone git@github.com:mybricks/designer-spa-demo.git
+ > git clone git@github.com:mybricks/demo-with-designer-domain.git
  >
 
 
