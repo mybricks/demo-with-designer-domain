@@ -1,0 +1,50 @@
+{
+  "types": [
+    "node"
+  ],
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es6",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@mybricks/designer-flow": [
+        "../designer-flow/src/index.tsx"
+      ],
+      "@mybricks/render-web": [
+        "../render-web/src/index.tsx"
+      ],
+      "@mybricks/comlib-core": [
+        "../../_comlibs/comlib-core/src/runtime.ts"
+      ],
+      "@mybricks/plugin-connector-http": [
+        "../../_plugin-connector-http/src/index.tsx"
+      ],
+      "@mybricks/plugin-connector-http/lib/ajax": [
+        "../../_plugin-connector-http/lib/ajax"
+      ]
+    }
+  },
+  "exclude": [
+    "./node_modules"
+  ]
+}
